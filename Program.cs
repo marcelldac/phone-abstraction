@@ -1,12 +1,12 @@
 ﻿using App;
 
-SmartPhone nokia = new Nokia(numero: "123456", modelo: "Modelo 1", imei: "111111111", memoria: 64);
+SmartPhone nokia = new Nokia(number: "123456", model: "Modelo 1", imei: "111111111", memory: 64);
 
 nokia.CallToAnyone();
 nokia.ReceiveCall();
 nokia.installApplication("Github");
 
-SmartPhone iphone = new Iphone(numero: "123456", modelo: "Modelo 1", imei: "111111111", memoria: 64);
+SmartPhone iphone = new Iphone(number: "123456", model: "Modelo 1", imei: "111111111", memory: 64);
 
 iphone.CallToAnyone();
 iphone.ReceiveCall();

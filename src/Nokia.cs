@@ -2,7 +2,7 @@ namespace App
 {
     public class Nokia : SmartPhone
     {
-        public Nokia(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria)
+        public Nokia(string number, string model, string imei, int memory) : base(number, model, imei, memory)
         {
         }
 

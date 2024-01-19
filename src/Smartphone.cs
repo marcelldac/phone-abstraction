@@ -2,17 +2,17 @@ namespace App
 {
     public abstract class SmartPhone
     {
-        string Numero { get; set; }
-        string Modelo { get; set; }
+        string Number { get; set; }
+        string Model { get; set; }
         string IMEI { get; set; }
-        int Memoria { get; set; }
+        int Memory { get; set; }
 
-        protected SmartPhone(string numero, string modelo, string imei, int memoria)
+        protected SmartPhone(string number, string model, string imei, int memory)
         {
-            Numero = numero;
-            Modelo = modelo;
+            Number = number;
+            Model = model;
             IMEI = imei;
-            Memoria = memoria;
+            Memory = memory;
         }
 
         public void CallToAnyone()
