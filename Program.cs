@@ -17,10 +17,12 @@
 
         public void CallToAnyone()
         {
+            Console.WriteLine("Calling...");
         }
 
         public void ReceiveCall()
         {
+            Console.WriteLine("Receiving a call...");
         }
 
         public abstract void installApplication(string app);
